@@ -2,7 +2,14 @@
 Assistant for the Lava Water and Purple IC in Voidlands, beacause that IC kinda sucks
 
 ## Controls
-
+- L  resets all the spinners into their default state.
+- O does the same as L, but after 0.3 seconds.
+- P / ~ (or whatever ~ is on your keyboard) pauses the spinners.
+#### Rest of these are ordered respectively
+- The left/right arrow keys slowly rotates the spinners counter-clockwise/clockwise.
+- A / D rotates the spinners counter-clockwise/clockwise, but faster.
+- The up/down arrow keys increases/decreases the warning delay of the spinners (You can't hold this down.)
+- W / S increases/decreases the warning delay of the spinners (You can hold this down.)
 
 ## Installation
 ### The Two Versions

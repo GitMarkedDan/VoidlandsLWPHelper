@@ -8,26 +8,25 @@ function love.load()
     canvas = love.graphics.newCanvas(800,800)
     b = 0
     warn = 0.75
+    love.keyboard.setKeyRepeat(false)
 end
 function love.update(dt)
     if not paused then
         r = (r + 1 * dt)
     end
 end
-function love.keypressed(key, scancode, isrepeat)
-    if not isrepeat then
-        if key == "l" then
-            r = 0
-        elseif key == "o" then
-            love.timer.sleep(0.3)
-            r = 0
-        elseif key == "p" or key == "`" then
-            paused = not paused
-        elseif key == "up" then
-            warn = warn + 0.05
-        elseif key == "down" then
-            warn = warn - 0.05
-        end
+function love.keypressed(key, scancode)
+    if key == "l" then
+        r = 0
+    elseif key == "o" then
+        love.timer.sleep(0.3)
+        r = 0
+    elseif key == "p" or key == "`" then
+        paused = not paused
+    elseif key == "up" then
+        warn = warn + 0.05
+    elseif key == "down" then
+        warn = warn - 0.05
     end
 end
 
@@ -53,7 +52,7 @@ function love.draw()
     b = sw > sh and sh or sw
     --top row
 
-    if love.keyboard.isDown("l") then love.graphics.print("L IS DOWN") end
+    --if love.keyboard.isDown("l") then love.graphics.print("L IS DOWN") end
     if love.keyboard.isDown("left") then r = r - 0.01 end
     if love.keyboard.isDown("right") then r = r + 0.01 end
     if love.keyboard.isDown("a") then r = r - 0.1 end
