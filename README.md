@@ -23,3 +23,7 @@ Simply download the zip file, unzip it wherever you want, and run the .exe file.
 Head to the [Love2d Website](https://love2d.org/) and download the latest version (I recommend using the installer, but you do you.) Once it's installed, right click the file, click open with, and navigate to your love2d directory and choose love (also if you don't check "Always open use this app to open .love" you are stupid)
 
 Ok look you probably can figure this stuff out but im tryina cover all cases here
+
+## A bit more info
+The versions are sorted like this
+v(love version).(still love version).(current version / nothing)
