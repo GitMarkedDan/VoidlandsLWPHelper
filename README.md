@@ -1,7 +1,10 @@
 # VoidLavaWaterPurpleHelper
 Assistant for the Lava Water and Purple IC in Voidlands, beacause that IC kinda sucks
 ## Usage
-### How do I use it?
+This thing was built to help with the spinners part in voidlands. If you're like me and hate anything timing based, you can rely on this to know when it's safe or unsafe to minimize.
+
+Also keep in mind, this won't make you instantly beat the LWP ic. It's just a visual assitant, it'll help you, but in the end the only thing you can rely on is your own skill.
+### How do I sync it?
 In order to use this thing, you have to sync it up with the spinners in-game. There's a few ways of doing this, but I recommend:
 1. Reach the part with the spinners.
 2. Pause and look at the configuration of the first two spinners. (Best to do this when either of the bars are fully vertical/horizontal)
@@ -15,6 +18,7 @@ In order to use this thing, you have to sync it up with the spinners in-game. Th
 ### Extra info or smth
 - The spinners all vertically sync at every 4 * pi seconds after the level transition ends.
 - There's an extra timer for recommend crossing time from the 4th to the 5th.
+- This wasn't built for me to publicly release it, it's just that I realized that this might help ppl, so i just went with it.
 ## Controls
 - L  resets all the spinners into their default state.
 - O does the same as L, but after 0.3 seconds.
