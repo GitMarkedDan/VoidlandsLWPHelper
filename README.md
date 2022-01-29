@@ -1,4 +1,4 @@
-# VoidLavaWaterPurpleHelper
+# VoidlandsLWPHelper
 Assistant for the Lava Water and Purple IC in Voidlands, beacause that IC kinda sucks
 ## Usage
 This thing was built to help with the spinners part in voidlands. If you're like me and hate anything timing based, you can rely on this to know when it's safe or unsafe to minimize.
